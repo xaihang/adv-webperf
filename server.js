@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 app.use((req, res, next) => {
-    // Fake pause
+    // Fake delay 
     setTimeout(next, Math.floor( ( Math.random() * 1500 ) + 100 ) );
 });
 

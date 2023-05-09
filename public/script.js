@@ -14,4 +14,4 @@ async function load() {
     });
 }
 
-window.onload = load;
+window.addEventListener("DOMContentLoaded", load);
